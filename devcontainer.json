@@ -1,0 +1,9 @@
+{
+  "name": "Java App with Docker",
+  "build": {
+    "dockerfile": "../Dockerfile"
+  },
+  "settings": {},
+  "extensions": ["vscjava.vscode-java-pack"],
+  "postCreateCommand": "javac Main.java"
+}
