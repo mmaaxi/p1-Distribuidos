@@ -3,7 +3,6 @@ FROM openjdk:17-slim
 WORKDIR /app
 
 COPY . .
-
-RUN javac Main.java
+RUN javac src/Main.java -d .
 
 CMD ["java", "Main"]
